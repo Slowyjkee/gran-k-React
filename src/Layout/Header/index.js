@@ -2,8 +2,8 @@ import React, {Component} from 'react'
 import {Layout, Menu} from "antd";
 import Logo from '../../../src/Assets/images/logo.png'
 import TextLogo from '../../../src/Assets/images/text-logo.png'
-
 import './header.scss'
+
 export default class Header  extends Component {
 
     render(){
