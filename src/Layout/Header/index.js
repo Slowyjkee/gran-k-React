@@ -15,10 +15,11 @@ export default class Header  extends Component {
             height:"100vh",
             width:"100%",
             backgroundRepeat:'no-repeat',
-            backgroundSize:'contain'
+            backgroundSize:'cover'
         };
         return (
-            <div className="header-component" style={BackgroundImage}>
+            <div className="header-component relative" style={BackgroundImage}>
+                <div className="overlay" />
                 <Header className="flex-align-center container header relative" theme={'light'}>
                     <div className="logo-block">
                         <img src={Logo} width='48px'/>
