@@ -12,7 +12,7 @@ class App extends Component {
 
         return (
            <div>
-               <Layout>
+               <Layout className='background-white'>
                     <Header />
                </Layout>
            </div>

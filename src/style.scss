@@ -18,6 +18,10 @@ html {
   margin: 0 auto;
 }
 
+.background-white {
+  background-color: #ffffff !important;
+}
+
 @for $i from 0 through 100 {
   .mr-#{$i} {
     margin-right: $i + px !important;
